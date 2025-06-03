@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import UserForm from 'C:/Users/DELL/Projetos/login-usuarios/src/components/UserForm.tsx';
 import { Container, Typography } from '@mui/material';
-import type { User } from 'C:/Users/DELL/Projetos/login-usuarios/types/User.tsx';
+import type { User } from '../../types/User';
+import UserForm from '../components/UserForm';
 
 export default function CadastroPage() {
   const [users, setUsers] = useState<User[]>(() => {
