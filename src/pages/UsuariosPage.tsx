@@ -12,7 +12,7 @@ export default function UsuariosPage() {
     setUsers(parsed);
   }, []);
 
-  // --
+  // -----
 
   return (
     <Container>
