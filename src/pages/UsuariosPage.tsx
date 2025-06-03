@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Container, Typography } from '@mui/material';
-import type { User } from 'C:/Users/DELL/Projetos/login-usuarios/types/User.ts';
 import UserList from '../components/UserList';
+import type { User } from '../../types/User';
 
 export default function UsuariosPage() {
   const [users, setUsers] = useState<User[]>([]);

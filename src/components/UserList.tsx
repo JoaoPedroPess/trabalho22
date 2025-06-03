@@ -1,5 +1,5 @@
 import { Box, Card, CardContent, Typography } from '@mui/material';
-import type { User } from 'C:/Users/DELL/Projetos/login-usuarios/types/User.ts';
+import type { User } from '../../types/User';
 
 interface Props {
   users: User[];
