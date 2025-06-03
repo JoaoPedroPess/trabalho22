@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Container, Typography } from '@mui/material';
 import type { User } from '../../types/User';
 import UserForm from '../components/UserForm';
